@@ -1,0 +1,175 @@
+
+<!DOCTYPE html><!-- doctype do HTML5 -->
+<html>
+	<head>
+		<title>CV-MAgnum</title>
+		
+		<!-- Importante para habilitar os recursos de Responsividade em conjunto com o CSS -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+  		        
+  		<link rel="stylesheet" href="css/bootstrap.css">
+      <style>
+        body {
+          padding: 25px;
+          background-color: white;
+          color: black;
+          font-size: 25px;
+        }
+        .dark-mode {
+          background-color: black;
+          color: white;
+        }
+        .light-mode {
+          background-color: white;
+          color: black;
+        }
+      </style> 
+	</head>
+	
+<body>
+  
+		
+    <!-- Início da barra de navegação -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+            
+            <!-- botao utilizado para abrir menu em dispositivos resolucao menor -->
+          	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+          	</button>
+            
+            <!-- logo do site -->
+            <a class="navbar-brand" href="#">ANALISTA DE SISTEMA JR</a>
+			
+			<!-- inicio menu -->
+            <div class="navbar-collapse collapse navbar-right">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">SOFT SKILLS</a></li>
+                <li><a href="#about">RESILIÊNCIA</a></li>
+                <li><a href="#contact">PROATIVIDADE</a></li>
+                <li><a href="#contact">COMUNICAÇÃO</a></li>
+                <li><a href="#contact">CRIATIVIDADE</a></li>
+                <li><a href="texto"></a></li>
+              </ul>
+              <h5 id="DarkModetext">Dark Mode is OFF</h5>
+              <h5> <button onclick="darkMode()">Dark</button> 
+          <button onclick="lightMode()">Light </button></h5>
+          <script>
+            function darkMode() {
+              var element = document.body;
+              var content = document.getElementById("DarkModetext");
+              element.className = "dark-mode";
+              content.innerText = "Dark Mode is ON";
+            }
+            function lightMode() {
+              var element = document.body;
+              var content = document.getElementById("DarkModetext");
+              element.className = "light-mode";
+              content.innerText = "Dark Mode is OFF";
+            }
+          </script>
+            </div>
+            <!-- fim menu -->
+            
+            
+		</div>
+	</div>
+	<!-- Fim da barra de navegação -->
+	
+   <!-- Cria area principal de marketing de um site -->
+    <div class="jumbotron">
+      <div class="container">
+      	<br /> 
+        <br>
+        <h2>MAGNUM DOUGLAS OLIVEIRA DE SOUZA</h2> 
+        <span class="circle-image">
+        <img src="perfil1.png"  alt="">  
+        
+   
+      </span>
+        <br>
+        <p>
+        	Experiência na área de Tecnologia da Informação | Gerenciamento,
+suporte e implementação de infraestrutura de Redes | Suporte a
+Sistemas | SharePoint | Power Automate | Power Apps| InfoPath |
+Gerenciamento de Help Desk. (PT)
+</p>
+<p>
+Experience in Information Technology | Network Infrastructure
+Management, Support and Implementation | Systems Support |
+SharePoint | Power Automate | Power Apps| InfoPath | Help Desk
+Management. (EN)
+        </p>
+        <p><a class="btn btn-primary btn-lg" role="button" href="https://www.linkedin.com/in/magnum-souza-064404151/">Ver Perfil &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container"><!-- container -->
+      <!-- Criação de colunas -->
+      <div class="row">
+      	
+        <div class="col-md-4">
+          <h2>FORMAÇÃO</h2>
+          <p>
+          <br>	
+          -Estácio de Sá
+<br> -Analise e Desenvolvimento de Sistemas
+<br>  (janeiro
+de 2020 - julho de 2022)
+          </p>
+          <p><a class="btn btn-default" href="https://www.linkedin.com/in/magnum-souza-064404151/">mais &raquo;</a></p>
+        </div>
+        
+        <div class="col-md-4">
+          <h2>HABILIDADES</h2>
+        <P>
+          <br>-Microsoft 
+          <br>-Power Plataform
+          <br>-Power Apps
+          <br>-Power Automante
+          <br>-Sharepoint 365                   
+          <br>-Html | Css | js
+
+        </P>
+
+
+          
+          <p><a class="btn btn-default" href="https://www.linkedin.com/in/magnum-souza-064404151/">mais &raquo;</a></p>
+        </div>
+        
+        <div class="col-md-4">
+          <h2>EXPERIÊNCIA</h2>
+          <p>
+          	   
+			   <br />- MCM Montagens Industriais
+         6 anos 3 meses,
+         <br>Analista de suporte -
+         outubro de 2021 - Present (1 ano 3 meses)
+         
+			   <br />- Assistente de TI -
+         março de 2019 - Present (3 anos 10 meses)
+			   <br />- Estagiário -
+         março de 2018 - março de 2019 (1 ano 1 mês)
+         
+          </p>
+          <p><a class="btn btn-default" href="https://www.linkedin.com/in/magnum-souza-064404151/">mais &raquo;</a></p>
+        </div>
+        
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; MAGNUM SOUZA 2023</p>
+      </footer>
+    </div> <!-- /container -->
+
+	</body>
+	
+</html>
